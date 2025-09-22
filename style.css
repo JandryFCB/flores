@@ -12,6 +12,13 @@
     --petal-color: radial-gradient(circle, #ff5e00, #ffbb00);
 }
 
+html, body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Evita el scroll */
+}
+
 body {
     background-image: var(--color-bg);
     min-height: 100vh;
@@ -398,6 +405,11 @@ button {
     width: 90vw;
     font-size: 1em;
   }
+}
+
+.contenedor-principal {
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 
