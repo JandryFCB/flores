@@ -385,7 +385,7 @@ body {
     }
 }
 
-button {
+.mi-boton, button {
   display: block;
   margin: 20px auto;
   padding: 12px 24px;
@@ -397,19 +397,32 @@ button {
   cursor: pointer;
   max-width: 90vw;
   box-sizing: border-box;
+  z-index: 10;
+  position: relative;
 }
 
-/* Asegura que el botón sea visible en móviles */
+/* Ajuste para móviles */
 @media (max-width: 600px) {
-  button {
+  .mi-boton, button {
     width: 90vw;
     font-size: 1em;
+    margin: 16px auto;
   }
 }
 
-.contenedor-principal {
-  height: 100vh;
-  box-sizing: border-box;
+.corazon {
+  width: 60vw;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .corazon {
+    width: 50vw;
+    max-width: 180px;
+  }
 }
 
 
