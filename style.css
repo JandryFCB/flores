@@ -378,6 +378,28 @@ body {
     }
 }
 
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  border: none;
+  background: #ffd700;
+  color: #333;
+  cursor: pointer;
+  max-width: 90vw;
+  box-sizing: border-box;
+}
+
+/* Asegura que el botón sea visible en móviles */
+@media (max-width: 600px) {
+  button {
+    width: 90vw;
+    font-size: 1em;
+  }
+}
+
 
 
 
